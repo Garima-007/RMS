@@ -1,9 +1,12 @@
 # RMS
-Contributors :
-                Garima Dhanania
-                Amitayush Thakur
------------------------------------
------------------------------------
+Contributors
+-----------------------
+
+Garima Dhanania
+Amitayush Thakur
+
+-----------------------------
+
 #Smart Restaurant Management System - 
 
 #Technologies used
