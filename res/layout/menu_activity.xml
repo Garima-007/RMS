@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/menu_id_grid"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/menu_bg"
+    android:columnCount="1"
+    android:orientation="vertical"
+    tools:context=".RestIdDetails" >
+
+    <!-- Top Bar -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/top"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/topBar"
+            android:background="@color/menu_top" 
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/logo"
+                android:layout_width="@dimen/topBar"
+                android:layout_height="@dimen/topBar"
+                android:layout_column="1"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:contentDescription="@string/logo"
+                android:src="@drawable/plate17" />
+
+            <TextView
+                android:id="@+id/menu_top"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:layout_margin="5dp"
+                android:paddingBottom="@dimen/text_padding"
+                android:paddingLeft="@dimen/text_padding"
+                android:paddingRight="@dimen/text_padding"
+                android:paddingTop="30dp"
+                android:text="@string/menu_top"
+                android:textColor="#ffffffff"
+                android:textIsSelectable="false"
+                android:textSize="@dimen/text_top"
+                android:textStyle="bold"
+                android:typeface="sans" />
+        </LinearLayout>
+
+    	<LinearLayout
+    	    android:id="@+id/menu"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:layout_gravity="left|top"
+    	    android:orientation="vertical" >
+
+    	</LinearLayout>
+    </LinearLayout>
+    <!-- /Top Bar -->
+
+
+</GridLayout>

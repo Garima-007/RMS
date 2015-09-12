@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".LoginActivity">
+    <TableLayout android:layout_width="fill_parent"
+        android:layout_row="0"
+        android:layout_column="0">
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/topBar"
+            android:background="@color/login_top"
+            android:id="@+id/top">
+
+            <ImageView
+                android:layout_width="@dimen/topBar"
+                android:layout_height="@dimen/topBar"
+                android:id="@+id/logo"
+                android:layout_column="1"
+                android:src="@drawable/plate17"
+                android:contentDescription="@string/logo"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp" />
+
+            <TextView
+                android:layout_margin="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/srms"
+                android:id="@+id/login_top"
+                android:layout_column="2"
+                android:textSize="30sp"
+                android:textColor="#ffffffff"
+                android:textStyle="bold"
+                android:textIsSelectable="false"
+                android:paddingBottom="@dimen/text_padding"
+                android:paddingRight="@dimen/text_padding"
+                android:paddingLeft="@dimen/text_padding"
+                android:paddingTop="30dp"
+                android:typeface="sans" />
+        </TableRow>
+
+    </TableLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/login_name"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:padding="15dp"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:text="@string/login_email" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTxtUsr"
+        android:layout_row="2"
+        android:layout_column="0"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:inputType="text"
+        android:ems="10"
+        android:hint="@string/login_email">
+    <requestFocus />
+    </EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/reg_mail"
+        android:layout_row="3"
+        android:layout_column="0"
+        android:padding="15dp"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:text="@string/password" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_row="4"
+        android:layout_column="0"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:inputType="textPassword"
+        android:id="@+id/editTxtPass"
+        android:ems="10"
+        android:hint="@string/password">
+        <requestFocus/>
+    </EditText>
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/login_button"
+        android:layout_row="5"
+        android:onClick="submit"
+        android:layout_column="0"
+        android:layout_margin="15dp"
+        android:text="@string/login"
+        android:background="@color/register_top"
+        android:textColor="#fff"
+        android:textStyle="bold|italic"
+        android:textSize="15sp"
+        android:singleLine="false"
+        android:paddingLeft="15dp"
+        android:paddingTop="8dp"
+        android:paddingRight="15dp"
+        android:paddingBottom="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/forgot_password"
+        android:layout_row="6"
+        android:layout_column="0"
+        android:clickable="true"
+        android:textColor="#fff"
+        android:textSize="15sp"
+        android:background="@color/register_top"
+        android:padding="10dp"
+        android:layout_marginLeft="15dp"
+        android:textStyle="italic"
+        android:text="@string/pass_forgot" />
+
+</GridLayout>

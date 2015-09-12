@@ -1,0 +1,11 @@
+
+<resources>
+    <color name="menu_top">#400000</color>
+    <color name="restr_top">#ff00aeef</color>
+    <color name="cart_bg">#6b2b39</color>
+    <color name="item_name">#ededed</color>
+    <color name="pay_top">#168f4c</color>
+    <color name="register_top">#985258</color>
+    <color name="login_top">#ec6b76</color>
+    <color name="restr_result">#6dcff6</color>
+</resources>

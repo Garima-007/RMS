@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/res_id_grid"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/restr_id_bg"
+    android:columnCount="1"
+    android:orientation="vertical"
+    tools:context=".RestIdDetails" >
+
+    <!-- Top Bar -->
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_column="0"
+        android:layout_row="0" >
+
+        <TableRow
+            android:id="@+id/top"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/topBar"
+            android:background="@color/restr_top" >
+
+            <ImageView
+                android:id="@+id/logo"
+                android:layout_width="@dimen/topBar"
+                android:layout_height="@dimen/topBar"
+                android:layout_column="1"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:contentDescription="@string/logo"
+                android:src="@drawable/plate17" />
+
+            <TextView
+                android:id="@+id/restr_top"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:layout_margin="5dp"
+                android:paddingBottom="@dimen/text_padding"
+                android:paddingLeft="@dimen/text_padding"
+                android:paddingRight="@dimen/text_padding"
+                android:paddingTop="30dp"
+                android:text="@string/res_id_top"
+                android:textColor="#ffffffff"
+                android:textIsSelectable="false"
+                android:textSize="@dimen/text_top"
+                android:textStyle="bold"
+                android:typeface="sans" />
+        </TableRow>
+    </TableLayout>
+    <!-- /Top Bar -->
+
+    <TextView
+        android:id="@+id/restr_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_row="1"
+        android:padding="15dp"
+        android:text="@string/res_name_hint"
+        android:textColor="@color/restr_top"
+        android:textSize="20sp" />
+
+    <TableLayout>
+
+        <TableRow>
+
+            <EditText
+                android:id="@+id/txtRestSearch"
+                android:layout_width="240dp"
+                android:layout_height="40dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/search_bar"
+                android:editable="false"
+                android:ems="10"
+                android:hint="@string/type"
+                android:inputType="text"
+                android:padding="8dp" />
+
+            <Button
+                android:id="@+id/btnSearch"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/search_button"
+                android:onClick="load_menu"
+                android:textColor="@android:color/transparent" />
+
+        </TableRow>
+      <TableRow>
+
+          <TextView
+              android:id="@+id/txtRestName"
+              android:layout_width="240dp"
+              android:layout_height="60dp"
+              android:background="@drawable/search_bar"
+              android:text="  Search Results:(0 found)"
+              android:textAppearance="?android:attr/textAppearanceLarge" />
+
+      </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_row="1"
+        android:text="TextView" />
+
+
+</GridLayout>

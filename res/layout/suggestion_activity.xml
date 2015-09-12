@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/suggestions_id_grid"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/menu_bg"
+    android:columnCount="1"
+    android:orientation="vertical"
+    tools:context=".RestIdDetails" >
+
+    <!-- Top Bar -->
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_column="0"
+        android:layout_row="0" >
+
+        <TableRow
+            android:id="@+id/top"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/topBar"
+            android:background="@color/menu_top" >
+
+            <ImageView
+                android:id="@+id/logo"
+                android:layout_width="@dimen/topBar"
+                android:layout_height="@dimen/topBar"
+                android:layout_column="1"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:contentDescription="@string/logo"
+                android:src="@drawable/plate17" />
+
+            <TextView
+                android:id="@+id/suggest_top"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:layout_margin="5dp"
+                android:paddingBottom="@dimen/text_padding"
+                android:paddingLeft="@dimen/text_padding"
+                android:paddingRight="@dimen/text_padding"
+                android:paddingTop="30dp"
+                android:text="@string/suggest_top"
+                android:textColor="#ffffffff"
+                android:textIsSelectable="false"
+                android:textSize="@dimen/text_top"
+                android:textStyle="bold"
+                android:typeface="sans" />
+        </TableRow>
+    </TableLayout>
+	<LinearLayout
+	    android:orientation="vertical">
+    <TextView
+        android:id="@+id/health"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_column="0"
+        android:layout_marginBottom="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_row="1"
+        android:background="#ededed"
+        android:padding="15dp"
+        android:text="Health and Nutrition" />
+    
+    <TextView
+        android:id="@+id/cost"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_column="0"
+        android:layout_marginBottom="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_row="1"
+        android:background="#ededed"
+        android:padding="15dp"
+        android:text="Soft on the wallet" />
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_column="0"
+        android:layout_marginBottom="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_row="1"
+        android:background="#ededed"
+        android:padding="15dp"
+        android:text="In a Hurry" />
+    <!-- /Top Bar -->
+
+    <TextView
+        android:id="@+id/fav"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_column="0"
+        android:layout_gravity="left|top"
+        android:layout_marginBottom="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_row="1"
+        android:background="#ededed"
+        android:padding="15dp"
+        android:text="My Favourites" />
+    </LinearLayout>
+
+</GridLayout>

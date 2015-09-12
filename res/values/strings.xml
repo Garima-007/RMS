@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">RestaurantManagementSystem</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="login_label">UserId</string>
+    <string name="login">Login</string>
+    <string name="Submit">Submit</string>
+    <string name="top">top</string>
+    <string name="logo">logo</string>
+    <string name="top_bar_text">Large Text</string>
+    <string name="text">text</string>
+    <string name="res_id_top">Restaurant Name</string>
+    <string name="search_input"> Enter Restaurant Name</string>
+    <string name="res">result</string>
+    <string name="rest_res">Restaurant name and address</string>
+    <string name="submit">Submit</string>
+    <string name="menu_top">Restaurant Menu</string>
+    <string name="cart">Cart</string>
+    <string name="drinks">Drinks</string>
+    <string name="snacks">Snacks</string>
+    <string name="drinks_icon">drinks_icon</string>
+    <string name="pay_top">Pay Here</string>
+    <string name="pay">Pay by cash</string>
+    <string name="register_top">Register here</string>
+    <string name="reg_name">Enter your full name</string>
+    <string name="reg_mail">Enter a valid E-mail ID</string>
+    <string name="reg_phone">Enter your 10-digit mobile number</string>
+    <string name="reg_button">Register</string>
+    <string name="reg_pass">Password (min. 6 characters)</string>
+    <string name="srms">SRMS</string>
+    <string name="login_email">Email ID/ Mobile no.</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="pass_forgot">Forgot password? Click here.</string>
+    <string name="res_name_hint">Enter the restaurant name</string>
+    <string name="type">Start typing..</string>
+    <string name="rest_result_top">Select your restaurant</string>
+    <string name="res_text">Search results:</string>
+    <string name="restr_search">Zaika Restaurant, Opp. Ajanta Apartment, South Office Para, Ranchi - 834002</string>
+    <string name="suggest_top">Suggestions</string>
+    <string name="suggestion1">Suggestion 1</string>
+</resources>
