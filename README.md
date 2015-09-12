@@ -3,6 +3,7 @@ Contributors
 -----------------------
 
 Garima Dhanania
+------------------------
 Amitayush Thakur
 
 -----------------------------
