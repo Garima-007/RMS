@@ -7,7 +7,7 @@ Amitayush Thakur
 
 -----------------------------
 
- Smart Restaurant Management System - 
+# Smart Restaurant Management System - 
 
 # Technologies used
 Android application which uses Python Django framework at the server side.
